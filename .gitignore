@@ -16,3 +16,10 @@
 .DS_Store
 *.dump
 /public/uploads
+
+
+# Extra files to ignore
+doc/
+*.swp
+*~
+.DS_Store
