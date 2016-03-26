@@ -1,7 +1,7 @@
 require 'rails_helper'
 require 'spec_helper'
 
-RSpec.describe Api::V1::UsersController, type: :controller do
+RSpec.describe API::V1::UsersController, type: :controller do
   before(:each) { request.headers['Accept'] = 'application/vnd.marketplace.v1' }
 
   describe 'GET #show' do
