@@ -17,6 +17,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails', '~> 4.2.1'
 
 #Api gems
 gem 'active_model_serializers'
@@ -28,6 +29,7 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'pry-rails'
 end
 
 group :development, :test do

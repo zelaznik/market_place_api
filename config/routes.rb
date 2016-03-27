@@ -1,4 +1,4 @@
-require 'api_constraints'
+require_relative '../lib/api_constraints.rb'
 
 MarketPlaceApi::Application.routes.draw do
   mount SabisuRails::Engine => "/sabisu_rails"
