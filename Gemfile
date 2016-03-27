@@ -40,7 +40,7 @@ group :test do
   gem "shoulda-matchers"
 end
 
-gem "devise"
+gem "devise", '~> 3.2.4'
 
 # Sabisu gems
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
