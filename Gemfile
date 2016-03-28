@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 4.2.1'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 #Api gems
 gem 'active_model_serializers'
 
